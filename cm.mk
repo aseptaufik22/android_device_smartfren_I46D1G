@@ -16,6 +16,9 @@ $(call inherit-product, device/smartfren/I46D1G/full_rendang.mk)
 
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
+ 
++# Must define platform variant before including any common things
++TARGET_BOARD_PLATFORM_VARIANT := msm8916
 
 PRODUCT_NAME := cm_I46D1G
 BOARD_VENDOR := smartfren
