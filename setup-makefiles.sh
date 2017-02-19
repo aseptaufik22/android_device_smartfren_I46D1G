@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DEVICE=rendang
+DEVICE=I46D1G
 VENDOR=smartfren
 
 OUTDIR=vendor/$VENDOR/$DEVICE

@@ -1,5 +1,5 @@
-Device configuration for Smartfren G3 (rendang)
+Device configuration for Smartfren R (I46D1G)
 ==============================
 This device tree supports:
 
-    rendang (G3 - Haier variant)
+    I46D1G (R - Hisense variant)

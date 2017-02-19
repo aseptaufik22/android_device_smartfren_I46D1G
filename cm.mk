@@ -12,17 +12,17 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-$(call inherit-product, device/smartfren/rendang/full_rendang.mk)
+$(call inherit-product, device/smartfren/I46D1G/full_rendang.mk)
 
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
-PRODUCT_NAME := cm_rendang
+PRODUCT_NAME := cm_I46D1G
 BOARD_VENDOR := smartfren
 PRODUCT_DEVICE := rendang
 
-PRODUCT_GMS_CLIENTID_BASE := android-haier
+PRODUCT_GMS_CLIENTID_BASE := android-hisense
 
-TARGET_VENDOR_PRODUCT_NAME := G36C1H
-TARGET_VENDOR_DEVICE_NAME := G36C1H
-PRODUCT_BUILD_PROP_OVERRIDES += TARGET_DEVICE=G36C1H PRODUCT_NAME=G36C1H
+TARGET_VENDOR_PRODUCT_NAME := I46D1G
+TARGET_VENDOR_DEVICE_NAME := I46D1G
+PRODUCT_BUILD_PROP_OVERRIDES += TARGET_DEVICE=I46D1G PRODUCT_NAME=I46D1G

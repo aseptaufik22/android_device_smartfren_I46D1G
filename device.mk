@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-$(call inherit-product-if-exists, vendor/smartfren/rendang/rendang-vendor.mk)
+$(call inherit-product-if-exists, vendor/smartfren/I46D1G/rendang-vendor.mk)
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
@@ -28,14 +28,14 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/handheld_core_hardware.xml:system/etc/permissions/handheld_core_hardware.xml
 
 # Screen density
-PRODUCT_AAPT_CONFIG := normal hdpi
-PRODUCT_AAPT_PREF_CONFIG := hdpi
+PRODUCT_AAPT_CONFIG := normal
+PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 854
-TARGET_SCREEN_WIDTH := 480
+TARGET_SCREEN_HEIGHT := 1280
+TARGET_SCREEN_WIDTH := 720
 
-$(call inherit-product, frameworks/native/build/phone-hdpi-512-dalvik-heap.mk)
+$(call inherit-product, frameworks/native/build/phone-xhdpi-1024-dalvik-heap.mk)
 
 # Audio configuration
 PRODUCT_COPY_FILES += \
@@ -100,9 +100,6 @@ PRODUCT_PACKAGES += \
     init.cne.rc \
     init.target.rc \
     init.qcom.usb.rc
-# Recovery
-PRODUCT_EXTRA_RECOVERY_KEYS += \
-    $(LOCAL_PATH)/rendang-releasekey
 
 # Sensor HAL
 PRODUCT_PACKAGES += \

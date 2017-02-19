@@ -54,32 +54,55 @@ vendor/lib/liboemcamera.so
 vendor/lib/libqomx_jpegenc.so
 
 # Camera Actuator
-vendor/lib/libactuator_dw9714_ov5648_rendang.so
-vendor/lib/libactuator_dw9714_ov5648_rendang_camcorder.so
-vendor/lib/libactuator_dw9714_ov5648_rendang_camera.so
-vendor/lib/libactuator_dw9714_ov5670_rendang.so
-vendor/lib/libactuator_dw9714_ov5670_rendang_camcorder.so
-vendor/lib/libactuator_dw9714_ov5670_rendang_camera.so
+vendor/lib/libactuator_rohm_bu64243gwz.so
+vendor/lib/libactuator_rohm_bu64243gwz_camcorder.so
+vendor/lib/libactuator_rohm_bu64243gwz_camera.so
 
 # Camera Chromatix
-vendor/lib/libchromatix_gc2355_rendang_common.so
-vendor/lib/libchromatix_gc2355_rendang_preview.so
-vendor/lib/libchromatix_ov5648_q5v22e_rendang_common.so
-vendor/lib/libchromatix_ov5648_q5v22e_rendang_default_video_hd.so
-vendor/lib/libchromatix_ov5648_q5v22e_rendang_default_video.so
-vendor/lib/libchromatix_ov5648_q5v22e_rendang_preview.so
-vendor/lib/libchromatix_ov5648_q5v22e_rendang_snapshot.so
-vendor/lib/libchromatix_ov5648_q5v22e_rendang_zsl.so
-vendor/lib/libchromatix_ov5670_q5v41b_rendang_common.so
-vendor/lib/libchromatix_ov5670_q5v41b_rendang_default_video.so
-vendor/lib/libchromatix_ov5670_q5v41b_rendang_hfr_120fps.so
-vendor/lib/libchromatix_ov5670_q5v41b_rendang_hfr_60fps.so
-vendor/lib/libchromatix_ov5670_q5v41b_rendang_hfr_90fps.so
-vendor/lib/libchromatix_ov5670_q5v41b_rendang_liveshot.so
-vendor/lib/libchromatix_ov5670_q5v41b_rendang_preview.so
-vendor/lib/libchromatix_ov5670_q5v41b_rendang_snapshot.so
-vendor/lib/libchromatix_ov5670_q5v41b_rendang_video_hd.so
-vendor/lib/libchromatix_ov5670_q5v41b_rendang_zsl.so
+vendor/lib/libchromatix_ov8865_truly_common.so
+vendor/lib/libchromatix_ov8865_truly_default_video.so
+vendor/lib/libchromatix_ov8865_truly_hfr_120fps.so
+vendor/lib/libchromatix_ov8865_truly_hfr_60fps.so
+vendor/lib/libchromatix_ov8865_truly_hfr_90fps.so
+vendor/lib/libchromatix_ov8865_truly_liveshot.so
+vendor/lib/libchromatix_ov8865_truly_preview.so
+vendor/lib/libchromatix_ov8865_truly_snapshot.so
+vendor/lib/libchromatix_ov8865_truly_video_hd.so
+vendor/lib/libchromatix_ov8865_truly_video_quarter.so
+vendor/lib/libchromatix_ov8865_truly_zsl.so
+vendor/lib/libchromatix_s5k5e2_bg_optimize_common.so
+vendor/lib/libchromatix_s5k5e2_bg_optimize_default_video.so
+vendor/lib/libchromatix_s5k5e2_bg_optimize_hfr_120fps.so
+vendor/lib/libchromatix_s5k5e2_bg_optimize_hfr_60fps.so
+vendor/lib/libchromatix_s5k5e2_bg_optimize_hfr_90fps.so
+vendor/lib/libchromatix_s5k5e2_bg_optimize_liveshot.so
+vendor/lib/libchromatix_s5k5e2_bg_optimize_preview.so
+vendor/lib/libchromatix_s5k5e2_bg_optimize_snapshot.so
+vendor/lib/libchromatix_s5k5e2_bg_optimize_video_hd.so
+vendor/lib/libchromatix_s5k5e2_bg_optimize_video_quarter.so
+vendor/lib/libchromatix_s5k5e2_bg_optimize_zsl.so
+vendor/lib/libchromatix_s5k5e2_shinetech_bir_common.so
+vendor/lib/libchromatix_s5k5e2_shinetech_bir_default_video.so
+vendor/lib/libchromatix_s5k5e2_shinetech_bir_hfr_120fps.so
+vendor/lib/libchromatix_s5k5e2_shinetech_bir_hfr_60fps.so
+vendor/lib/libchromatix_s5k5e2_shinetech_bir_hfr_90fps.so
+vendor/lib/libchromatix_s5k5e2_shinetech_bir_liveshot.so
+vendor/lib/libchromatix_s5k5e2_shinetech_bir_preview.so
+vendor/lib/libchromatix_s5k5e2_shinetech_bir_snapshot.so
+vendor/lib/libchromatix_s5k5e2_shinetech_bir_video_hd.so
+vendor/lib/libchromatix_s5k5e2_shinetech_bir_video_quarter.so
+vendor/lib/libchromatix_s5k5e2_shinetech_bir_zsl.so
+vendor/lib/libchromatix_s5k5e2_common.so
+vendor/lib/libchromatix_s5k5e2_default_video.so
+vendor/lib/libchromatix_s5k5e2_hfr_120fps.so
+vendor/lib/libchromatix_s5k5e2_hfr_60fps.so
+vendor/lib/libchromatix_s5k5e2_hfr_90fps.so
+vendor/lib/libchromatix_s5k5e2_liveshot.so
+vendor/lib/libchromatix_s5k5e2_preview.so
+vendor/lib/libchromatix_s5k5e2_snapshot.so
+vendor/lib/libchromatix_s5k5e2_video_hd.so
+vendor/lib/libchromatix_s5k5e2_video_quarter.so
+vendor/lib/libchromatix_s5k5e2_zsl.so
 
 # Camera firmware
 etc/firmware/cpp_firmware_v1_1_1.fw
@@ -88,9 +111,15 @@ etc/firmware/cpp_firmware_v1_2_0.fw
 etc/firmware/cpp_firmware_v1_4_0.fw
 
 # Camera Sensor
-vendor/lib/libmmcamera_gc2355_rendang.so
-vendor/lib/libmmcamera_ov5648_q5v22e_rendang.so
-vendor/lib/libmmcamera_ov5670_q5v41b.so
+vendor/lib/libmmcamera_ov8865_truly.so
+vendor/lib/libmmcamera_ov8866_qtech_f8865an_eeprom.so
+vendor/lib/libmmcamera_s5k5e2_bg_optimize_eeprom.so
+vendor/lib/libmmcamera_s5k5e2_bg_optimize.so
+vendor/lib/libmmcamera_s5k5e2_eeprom.so
+vendor/lib/libmmcamera_s5k5e2_shinetech_bir.so
+vendor/lib/libmmcamera_s5k5e2_shinetech_eeprom.so
+vendor/lib/libmmcamera_s5k5e2_shinetech.so
+vendor/lib/libmmcamera_s5k5e2.so
 
 # CNE
 bin/cnd

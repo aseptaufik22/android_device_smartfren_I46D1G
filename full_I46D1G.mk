@@ -12,6 +12,17 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+#
 
-PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/full_I46D1G.mk
+# Inherit from those products. Most specific first.
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+
+# Inherit from I46D1G device
+$(call inherit-product, device/smartfren/I46D1G/device.mk)
+
+# Device identifier. This must come after all inclusions
+PRODUCT_DEVICE := I46D1G
+PRODUCT_NAME := full_rendang
+PRODUCT_BRAND := Smartfren
+PRODUCT_MODEL := Andromax I46D1G
+PRODUCT_MANUFACTURER := Hisense

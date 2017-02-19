@@ -15,7 +15,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE), rendang)
+ifeq ($(TARGET_DEVICE), I46D1G)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
