@@ -67,6 +67,13 @@ PRODUCT_PACKAGES += \
     com.qti.dpmframework \
     dpmapi
 
+# Display
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/display/init.qdcm.sh:system/etc/init.qdcm.sh \
+    $(LOCAL_PATH)/display/pp_calib_data_booyi_otm1283a_720p.xml:system/etc/pp_calib_data_booyi_otm1283a_720p.xml.xml \
+    $(LOCAL_PATH)/display/pp_calib_data_goworld_lgp3_hx8394a_720p.xml:system/etc/pp_calib_data_goworld_lgp3_hx8394a_720p.xml \
+    $(LOCAL_PATH)/display/QDCMTargetInfo.xml:system/etc/QDCMTargetInfo.xml
+
 # GPS
 PRODUCT_PACKAGES += \
     gps.msm8916
